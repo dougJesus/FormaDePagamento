@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(73, 181, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(4, 38, 88);
+    box-shadow: 2px 2px 2px hsl(260, 100%, 1%);
+}
+    nav ul{
+        width: 100%;
+        height: 50px;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    nav ul li{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(253, 254, 255);
+    }
+
+nav .ativa{
+    color: #cff331;
+}
+main h2{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+#principal{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+    #esquerda{
+        background-color: white;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        width: 73%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    form{
+        width: 40%;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    form input{
+        height: 35px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    form input::placeholder{
+        padding: 5px;
+        font-size: 15px;
+    }
+    #seguranca{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    #validade{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    #cvv {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+    }
+    #direita{
+        width: 23%;
+        
+    }
+
+    #direita ul{
+        border: 1px solid #ccc;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 38px;
+        border-radius: 5px;
+        background-color: white;
+
+        display: flex;
+        flex-direction: column;
+    }
+    #direita ul li{
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        margin: 5px;
+        text-transform: uppercase;
+        font-size: 23px;
+        display: flex;
+        font-weight: normal;
+        
+    }
+    #direita ul li h5{
+        margin: 0px;
+        padding: 0px;
+        font-weight: normal;
+    }
+    .total{
+        font-weight: bold !important;
+        margin-top: 20px !important;
+        
+    }
+    .total h5{
+        font-weight: bold !important;
+    }
+    #direita button {
+        height: 60px;
+        width: 100%;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: rgb(255, 213, 24);
+        border: 0px;
+        color:rgb(4, 38, 88);
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgb(4, 38, 88);
+        cursor: pointer;
+    }
+    #direita button:hover{
+        background-color: rgb(129, 127, 10);
+    }
